@@ -13,14 +13,27 @@ class Auth extends CI_Controller {
 	public function login()
 	{
 
-		$this->form_validation->set_rules('username', 'Username', 'trim|required|min_length[10]');
-		$this->form_validation->set_rules('password', 'Password', 'required');
+		$username = $this->input->post('username');
+		$password = $this->input->post('password');
 
-		if ($this->form_validation->run() == FALSE) {
-			$this->load->view('auth/login');
-		} else {
+		$arr = array('username' => $username, 'password' => $password);
+		$res = $this->global_model->get_data_where('auth', $arr);
+
+		$response = count($res) == 0 ? 'NO' : 'YES';
+		if ($res) {
+			$array = array(
+				'is_logged' => true,
+				'username' => $username
+				);
 			
+			$this->session->set_userdata( $array );
 		}
+		else
+		{
+			$this->session->sess_destroy();
+		}
+		echo $response;
+		exit;
 	}
 	public function logout()
 	{

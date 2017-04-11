@@ -1,0 +1,43 @@
+table.dataTable thead .sorting, 
+table.dataTable thead .sorting_asc, 
+table.dataTable thead .sorting_desc {
+	text-align: center;
+	background: #1ab394;
+	color: white;
+}
+
+table.pretty {
+	color: black;
+}
+/* Header cells */
+table.pretty thead th {
+	text-align: center;
+	background: #1ab394;
+	color: white;
+}
+
+table.pretty tbody td:nth-child(2) {
+	text-align: left;
+	background: #d5eaf0;
+}
+table.pretty tbody td:not(:nth-child(2)) {
+	text-align: center;
+	background: #d5eaf0;
+}
+
+table.pretty tbody tr.odd td {
+	background: #bcd9e1;
+}
+
+/* Footer cells */ 
+table.pretty tfoot th {
+	background: #b0cc7f;
+	text-align: left;
+}
+
+table.pretty tfoot td {
+	background: #d7e1c5;
+	text-align: center;
+	font-weight: bold;
+}
+

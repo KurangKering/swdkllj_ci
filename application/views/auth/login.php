@@ -22,24 +22,20 @@
     <div class="middle-box text-center loginscreen animated fadeInUp">
         <div>
             <div>
-            <?php echo validation_errors(); ?>
                 <h1 class="logo-name">XXX</h1>
 
             </div>
-            <h3>Welcome to </h3>
-            <p>Sistem Informasi SWDKLLJ 
-                <!--Continually expanded and constantly improved Inspinia Admin Them (IN+)-->
-            </p>
-            <p>Login in. To see it in action.</p>
-            <form class="m-t" method="POST" role="form" action="<?php echo base_url('auth/login') ?>">
-                <div class="form-group">
-                    <input name="username" type="text" class="form-control" placeholder="Username" >
-                </div>
-                <div class="form-group">
-                    <input name="password" type="password" class="form-control" placeholder="Password" >
-                </div>
-                <button type="submit" class="btn btn-primary block full-width m-b">Login</button>
+            <h3>Sistem Informasi SWDKLLJ</h3>
 
+            <form  id="login" class="m-t" method="POST" role="form" >
+                <div class="form-group">
+                    <input name="username" type="text" class="form-control required" placeholder="Username" >
+                </div>
+                <div class="form-group">
+                    <input name="password" type="password" class="form-control required" placeholder="Password" >
+                </div>
+                <button id="login_button" type="submit" class="btn btn-primary block full-width m-b">Login</button>
+                <p id="error"></p>
                 <a href="#"><small>Lupa password?</small></a>
             </form>
         </div>
@@ -48,6 +44,10 @@
     <!-- Mainly scripts -->
     <script src="<?php echo base_url('template/inspinia/'); ?>js/jquery-3.1.1.min.js"></script>
     <script src="<?php echo base_url('template/inspinia/'); ?>js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url('assets/'); ?>jquery-validation/jquery.validate.min.js"></script>
+    <script src="<?php echo base_url('assets/'); ?>js/login.js"></script>
+
+    
 
 </body>
 

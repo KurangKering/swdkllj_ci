@@ -9,9 +9,24 @@
 	<link href="<?php echo base_url('template/inspinia/'); ?>font-awesome/css/font-awesome.css" rel="stylesheet">
 	<link href="<?php echo base_url('template/inspinia/'); ?>css/animate.css" rel="stylesheet">
 	<link href="<?php echo base_url('template/inspinia/'); ?>css/style.css" rel="stylesheet">
+	<link href="<?php echo base_url('assets/') ?>datatables/css/jquery.dataTables.css" rel="stylesheet">
+	<link href="<?php echo base_url('assets/') ?>datatables/css/dataTables.bootstrap.css" rel="stylesheet">
+
+
+
+
+	<script src="<?php echo base_url('template/inspinia/') ?>js/jquery-3.1.1.min.js"></script>
+	<script src="<?php echo base_url('template/inspinia/') ?>js/bootstrap.min.js"></script>
+	<script src="<?php echo base_url('template/inspinia/') ?>js/plugins/metisMenu/jquery.metisMenu.js"></script>
+	<script src="<?php echo base_url('template/inspinia/') ?>js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+	<script src="<?php echo base_url('template/inspinia/') ?>js/inspinia.js"></script>
+	<script src="<?php echo base_url('template/inspinia/') ?>js/plugins/pace/pace.min.js"></script>
+	<script src="<?php echo base_url('assets/') ?>datatables/js/jquery.dataTables.min.js"></script>
+	<script src="<?php echo base_url('assets/') ?>datatables/js/dataTables.bootstrap.min.js"></script>
+
 	<?php echo $template['metadata']; ?>
 </head>
-<body class="top-navigation skin-2 md-skin">
+<body class="top-navigation md-skin">
 	<div id="wrapper">
 		<div style="min-height: 768px" id="page-wrapper" class="gray-bg">
 			<div class="row border-bottom white-bg">
@@ -27,16 +42,14 @@
 							<li class="dropdown">
 								<a aria-expanded="false" role="button" href="#" class="dropdown-toggle" data-toggle="dropdown"> Data SWDKLLJ <span class="caret"></span></a>
 								<ul role="menu" class="dropdown-menu">
-									<li><a href="">Menu item</a></li>
+									<li><a href="<?php echo base_url('band/lihat_data') ?>">Lihat Data</a></li>
 									<li><a href="">Input Data</a></li>
-									<li><a href="">Menu item</a></li>
-									<li><a href="">Menu item</a></li>
 								</ul>
 							</li>
 						</ul>
 						<ul class="nav navbar-top-links navbar-right">
 							<li>
-								<a href="<?php echo base_url('welcome/login'); ?>">
+								<a href="<?php echo base_url('auth'); ?>">
 									<i class="fa fa-sign-out"></i> Log out
 								</a>
 							</li>
@@ -56,12 +69,6 @@
 			</div>
 		</div>
 	</div>
-	<script src="<?php echo base_url('template/inspinia/') ?>js/jquery-3.1.1.min.js"></script>
-	<script src="<?php echo base_url('template/inspinia/') ?>js/bootstrap.min.js"></script>
-	<script src="<?php echo base_url('template/inspinia/') ?>js/plugins/metisMenu/jquery.metisMenu.js"></script>
-	<script src="<?php echo base_url('template/inspinia/') ?>js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-	<script src="<?php echo base_url('template/inspinia/') ?>js/inspinia.js"></script>
-	<script src="<?php echo base_url('template/inspinia/') ?>js/plugins/pace/pace.min.js"></script>
-
+	
 </body>
 </html>
