@@ -13,7 +13,7 @@ class MY_Model extends CI_Model {
 	public function get_data_all($table)
 	{
 		$result = $this->db->get($table);
-		if ($result->num_rows() > 0 ) {
+		if ($result && $result->num_rows() > 0 ) {
 			return $result->result_array();
 		}
 		return array();
@@ -21,7 +21,7 @@ class MY_Model extends CI_Model {
 	public function get_data_where($table, $where)
 	{
 		$result = $this->db->get_where($table, $where);
-		if ($result->num_rows() > 0 ) {
+		if ($result && $result->num_rows() > 0 ) {
 			return $result->result_array();
 		}
 		return array();
@@ -29,7 +29,7 @@ class MY_Model extends CI_Model {
 	public function get_data_single($table, $where)
 	{
 		$result = $this->db->get_where($table, $where);
-		if ($result->num_rows() > 0 ) {
+		if ($result && $result->num_rows() > 0 ) {
 			return $result->row();
 		}
 		return array();

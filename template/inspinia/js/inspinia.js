@@ -15,8 +15,8 @@ $(document).ready(function () {
         $('body').removeClass('body-small')
     }
 
-    // // MetisMenu
-    // $('#side-menu').metisMenu();
+    // MetisMenu
+    $('#side-menu').metisMenu();
 
     // Collapse ibox function
     $('.collapse-link').on('click', function () {

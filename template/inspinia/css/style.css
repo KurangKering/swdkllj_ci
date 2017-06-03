@@ -109,19 +109,18 @@
   url('../fonts/roboto-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
   url('../fonts/roboto-v15-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
 }
-
 /*
  *
  *   INSPINIA - Responsive Admin Theme
  *   version 2.7
  *
- */
- h1,
- h2,
- h3,
- h4,
- h5,
- h6 {
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 100;
 }
 h1 {
@@ -5933,8 +5932,8 @@ body.body-small .vote-icon {
  * Made by Osman Nuri Okumus
  * Under MIT License
  */
- .metismenu .plus-minus,
- .metismenu .plus-times {
+.metismenu .plus-minus,
+.metismenu .plus-times {
   float: right;
 }
 .metismenu .arrow {
@@ -6006,7 +6005,7 @@ body.body-small .vote-icon {
  *    <div class="sk-spinner sk-spinner-rotating-plane"></div>
  *
  */
- .sk-spinner-rotating-plane.sk-spinner {
+.sk-spinner-rotating-plane.sk-spinner {
   width: 30px;
   height: 30px;
   background-color: #1ab394;
@@ -6051,7 +6050,7 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
- .sk-spinner-double-bounce.sk-spinner {
+.sk-spinner-double-bounce.sk-spinner {
   width: 40px;
   height: 40px;
   position: relative;
@@ -6108,7 +6107,7 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
- .sk-spinner-wave.sk-spinner {
+.sk-spinner-wave.sk-spinner {
   margin: 0 auto;
   width: 50px;
   height: 30px;
@@ -6172,7 +6171,7 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
- .sk-spinner-wandering-cubes.sk-spinner {
+.sk-spinner-wandering-cubes.sk-spinner {
   margin: 0 auto;
   width: 32px;
   height: 32px;
@@ -6245,7 +6244,7 @@ body.body-small .vote-icon {
  *    <div class="sk-spinner sk-spinner-pulse"></div>
  *
  */
- .sk-spinner-pulse.sk-spinner {
+.sk-spinner-pulse.sk-spinner {
   width: 40px;
   height: 40px;
   margin: 0 auto;
@@ -6285,7 +6284,7 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
- .sk-spinner-chasing-dots.sk-spinner {
+.sk-spinner-chasing-dots.sk-spinner {
   margin: 0 auto;
   width: 40px;
   height: 40px;
@@ -6356,7 +6355,7 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
- .sk-spinner-three-bounce.sk-spinner {
+.sk-spinner-three-bounce.sk-spinner {
   margin: 0 auto;
   width: 70px;
   text-align: center;
@@ -6424,7 +6423,7 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
- .sk-spinner-circle.sk-spinner {
+.sk-spinner-circle.sk-spinner {
   margin: 0 auto;
   width: 22px;
   height: 22px;
@@ -6590,15 +6589,15 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
- .sk-spinner-cube-grid {
+.sk-spinner-cube-grid {
   /*
    * Spinner positions
    * 1 2 3
    * 4 5 6
    * 7 8 9
    */
- }
- .sk-spinner-cube-grid.sk-spinner {
+}
+.sk-spinner-cube-grid.sk-spinner {
   width: 30px;
   height: 30px;
   margin: 0 auto;
@@ -6679,7 +6678,7 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
- .sk-spinner-wordpress.sk-spinner {
+.sk-spinner-wordpress.sk-spinner {
   background-color: #1ab394;
   width: 30px;
   height: 30px;
@@ -6738,7 +6737,7 @@ body.body-small .vote-icon {
  *    </div>
  *
  */
- .sk-spinner-fading-circle.sk-spinner {
+.sk-spinner-fading-circle.sk-spinner {
   margin: 0 auto;
   width: 22px;
   height: 22px;
@@ -6912,7 +6911,7 @@ body.body-small .vote-icon {
  *   INSPINIA Landing Page - Responsive Admin Theme
  *   Copyright 2014 Webapplayers.com
  *
- */
+*/
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* PACE PLUGIN
@@ -7754,8 +7753,8 @@ body.rtls.top-navigation .footer.fixed {
  *   This is style for skin config
  *   Use only in demo theme
  *
- */
- .theme-config {
+*/
+.theme-config {
   position: absolute;
   top: 90px;
   right: 0;
@@ -7851,8 +7850,8 @@ body.rtls.top-navigation .footer.fixed {
  *   SKIN 1 - INSPINIA - Responsive Admin Theme
  *   NAME - Blue light
  *
- */
- .skin-1 .minimalize-styl-2 {
+*/
+.skin-1 .minimalize-styl-2 {
   margin: 14px 5px 5px 30px;
 }
 .skin-1 .navbar-top-links li:last-child {
@@ -7957,8 +7956,8 @@ body.skin-1 {
  *   SKIN 2 - INSPINIA - Responsive Admin Theme
  *   NAME - Inspinia Ultra
  *
- */
- body.skin-2 {
+*/
+body.skin-2 {
   color: #565758 !important;
 }
 .skin-2 .minimalize-styl-2 {
@@ -8107,8 +8106,8 @@ body.skin-2 #wrapper {
  *   SKIN 3 - INSPINIA - Responsive Admin Theme
  *   NAME - Yellow/purple
  *
- */
- .skin-3 .minimalize-styl-2 {
+*/
+.skin-3 .minimalize-styl-2 {
   margin: 14px 5px 5px 30px;
 }
 .skin-3 .navbar-top-links li:last-child {

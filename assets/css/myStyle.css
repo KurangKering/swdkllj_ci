@@ -15,7 +15,7 @@ table.pretty thead th {
 	background: #1ab394;
 	color: white;
 }
-
+/*
 table.pretty tbody td:nth-child(2) {
 	text-align: left;
 	background: #d5eaf0;
@@ -27,8 +27,15 @@ table.pretty tbody td:not(:nth-child(2)) {
 
 table.pretty tbody tr.odd td {
 	background: #bcd9e1;
+}*/
+
+table.pretty tbody tr:nth-child(even) {
+    background-color: #d5eaf0;
 }
 
+table.pretty tbody tr:nth-child(odd) {
+    background-color: #bcd9e1;
+}
 /* Footer cells */ 
 table.pretty tfoot th {
 	background: #b0cc7f;
